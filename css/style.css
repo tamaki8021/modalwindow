@@ -2,7 +2,7 @@ body {
   font-size: 14px;
 }
 
-#open {
+#open, #close {
   cursor: pointer;
   width: 200px;
   border: 1px solid #ccc;
@@ -10,4 +10,29 @@ body {
   text-align: center;
   padding: 12px 0;
   margin: 16px auto 0;
+}
+
+#mask {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#modal {
+  background: #ffffff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#modal > p {
+  margin: 0 0 20px;
 }
